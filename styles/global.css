@@ -1,0 +1,24 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './variables.css';
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif,monospace;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  padding-right: 8%;
+}
+
+body {
+font-size: 62.5%;
+}
